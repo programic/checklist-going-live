@@ -17,24 +17,24 @@ This checklist is used whenever a project is going live at https://programic.com
 - [ ] Google Cloud is properly set up with a production API key.
 - [ ] Amazon Web Services is properly set up with a production API key.
 
-## Dotenv
+## 4. Dotenv
 - [ ] Debug mode is turned off.
 - [ ] "From" email address is set correctly.
 - [ ] Other .env variables are set correctly?
 
-## 4. Server
+## 5. Server
 - [ ] Production domain points to the correct server.
 - [ ] DigitalOcean droplet backups are enabled.
 - [ ] Database backups are enabled.
 
-## Pipelines 
+## 6. Pipelines 
 - [ ] Bitbucket Pipeline or GitHub actions deploys to production.
 - [ ] Assets are built for production.
 
-## 5. Back end
+## 7. Back end
 - [ ] Default passwords have been changed.
 
-## 6. Monitoring
+## 8. Monitoring
 - [ ] Crons are monitored by OhDear scheduled tasks.
 - [ ] Queue is monitored by OhDear application health.
 - [ ] Other OhDear features are set up correctly.
