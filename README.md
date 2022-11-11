@@ -20,7 +20,7 @@ This checklist is used whenever a project is going live at https://programic.com
 ## 4. Dotenv
 - [ ] Debug mode is turned off.
 - [ ] "From" email address is set correctly.
-- [ ] Other .env variables are set correctly?
+- [ ] Other .env variables are set correctly.
 
 ## 5. Server
 - [ ] Production domain points to the correct server.
