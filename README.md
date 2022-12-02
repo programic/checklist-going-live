@@ -26,6 +26,8 @@ This checklist is used whenever a project is going live at https://programic.com
 - [ ] Production domain points to the correct server.
 - [ ] DigitalOcean droplet backups are enabled.
 - [ ] Database backups are enabled.
+- [ ] The connection between server and client is encrypted by an SSL certificate. 
+- [ ] This scores at least an A+ via [SSL Labs](https://www.ssllabs.com/ssltest/).
 
 ## 6. Pipelines 
 - [ ] Bitbucket Pipeline or GitHub actions deploys to production.
